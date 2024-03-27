@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(130, 170, 238);
+    color: grey;
+}
+
+.menuleft img {
+    height: 2rem;
+    margin: 1rem;
+
+}
+
+.menuleft li {
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+.playlist {
+    margin-top: 2rem;
+}
+.menuleft {
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+}
+
+.menuleftright {
+    display: flex;
+}
+
+
+
+
+
+
+
+
