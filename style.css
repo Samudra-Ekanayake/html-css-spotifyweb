@@ -9,7 +9,7 @@ body {
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: black;
     width: 20vw;
     height: 85vh;
     position: fixed;
@@ -23,11 +23,15 @@ body {
 
 .sidebar li {
     margin: 0.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 ul {
     list-style-type: none;
+}
+
+.sidebar ul {
+    padding-left: 0.9rem;
 }
 
 .playlist {
@@ -35,54 +39,107 @@ ul {
 }
 
 .navbar {
-    background-color: rgb(255, 0, 81);
+    background-color: rgba(0, 0, 0, 0.852);
     width: 80%;
     height: 15vh;
     display: flex;
     align-items: center;
     justify-content: end;
+    
+
 }
 
 .filmbox {
     background-color: rgb(0, 255, 162);
     width: 80%;
     height: 70vh;
+    overflow: auto;
+}
+
+.filmbox h2 {
+    margin: 0 0 0 1.5rem;
+}
+
+.filmbox p {
+    margin: 0.5rem 0 0 1.5rem;
+}
+
+.box-content h5, p {
+    color: white;
+    margin: 0;
+
 }
 
 .main-nav {
     background-color: lightcoral;
     width: 100%;
+    height: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding-left: 12rem;
     
 }
+
+
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.main-nav li {
+    margin-right: 2rem;  
+}
+
+
+.navbar li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
 
 .first-rule {
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 10rem;
+    min-height: 10rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .second-rule {
     background-color: greenyellow;
     display: flex;
+    padding: 0 0 0 1rem;
+}
+
+.third-rule{
+    display: flex;
     padding: 0 0 0 0.6rem;
 }
-    
-
 
 .mainbox {
-    background-color: orange;
     width: 8rem;
     height: 8rem;
     margin: 1rem;
+    background-image: url(mountin.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .box-two {
-    margin-left: 2rem;
+    margin-left: 3rem;
+}
+
+
+.radius {
+
+    border-radius: 50%;
 }
 
 
@@ -102,6 +159,7 @@ ul {
 .down-sidebar {
     width: 100%;
     height: 15vh;
-    background-color: grey
-    ;
+    background-color: grey;
 }
+
+
