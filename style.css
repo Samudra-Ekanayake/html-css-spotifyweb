@@ -8,6 +8,20 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+p {
+    color: gray;
+}
+
+li:hover, h2:hover, p:hover, a:hover {
+    color: white;
+
+}
+   
 .sidebar {
     background-color: black;
     width: 20vw;
@@ -45,12 +59,20 @@ ul {
     display: flex;
     align-items: center;
     justify-content: end;
-    
+}
 
+.navbar button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 20px;
+    
 }
 
 .filmbox {
-    background-color: rgb(0, 255, 162);
+    background-color: rgb(17, 17, 17);
     width: 80%;
     height: 70vh;
     overflow: auto;
@@ -64,14 +86,32 @@ ul {
     margin: 0.5rem 0 0 1.5rem;
 }
 
-.box-content h5, p {
+
+.box-content h5 {
     color: white;
     margin: 0;
-
 }
 
+.box-content p {
+    color: gray;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.music p {
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.mus-two {
+    padding-left: 1.5rem;
+}
 .main-nav {
-    background-color: lightcoral;
+    background-color: rgb(17, 17, 17);
     width: 100%;
     height: 2rem;
     display: flex;
@@ -104,7 +144,7 @@ ul {
   
 
 .first-rule {
-    background-color: gray;
+    background-color: rgb(17, 17, 17);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -113,7 +153,7 @@ ul {
 }
 
 .second-rule {
-    background-color: greenyellow;
+    background-color: rgb(17, 17, 17);
     display: flex;
     padding: 0 0 0 1rem;
 }
